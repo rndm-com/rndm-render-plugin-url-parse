@@ -1,0 +1,19 @@
+{
+  "name": "@rndm/render-plugin-url-parse",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "author": "RNDM",
+  "license": "Apache-2.0",
+  "description": "RNDM Render Plugin: URL Parse. URL parsing and composing functionality for RNDM Render",
+  "homepage": "https://github.com/rndm-com/rndm-render-plugin-url-parse#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rndm-com/rndm-render-plugin-url-parse.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rndm-com/rndm-render-plugin-url-parse/issues"
+  },
+  "dependencies": {
+    "url-parse": "^1.4.4"
+  }
+}

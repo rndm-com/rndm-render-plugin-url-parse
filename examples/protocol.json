@@ -1,0 +1,44 @@
+{
+  "type": "react-native.View",
+  "props": {
+    "style": {
+      "padding": 10,
+      "marginTop": 10,
+      "backgroundColor": "#000000"
+    },
+    "children": [{
+      "type": "react-native.Text",
+      "props": {
+        "style": {
+          "marginTop": 10,
+          "color": "#ffffff"
+        },
+        "children": "Set URL: "
+      }
+    }, {
+      "type": "react-native.Text",
+      "props": {
+        "style": {
+          "marginTop": 10,
+          "color": "#ffffff"
+        },
+        "middleware": [{
+          "middleware": "redux.connect",
+          "args": [
+            [{
+              "to": "children",
+              "default": {
+                "isFunc": true,
+                "type": "url-parse.protocol",
+                "args": [
+                  "https://www.rndm.com/playground?query=true"
+                ],
+                "execute": [true]
+              }
+            }]
+          ]
+        }]
+      }
+    }]
+  }
+}
