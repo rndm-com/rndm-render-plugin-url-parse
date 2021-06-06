@@ -1,6 +1,6 @@
 {
   "name": "@rndm/render-plugin-url-parse",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "src/index.js",
   "author": "RNDM",
   "license": "Apache-2.0",
@@ -14,6 +14,6 @@
     "url": "https://github.com/rndm-com/rndm-render-plugin-url-parse/issues"
   },
   "dependencies": {
-    "url-parse": "^1.4.4"
+    "url-parse": "^1.5.1"
   }
 }
